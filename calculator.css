@@ -1,0 +1,141 @@
+*{
+    margin:0px;
+    padding:0px;
+     box-sizing: border-box;
+}
+section{
+    background:linear-gradient(rgb(159, 213, 230),rgb(231, 139, 139) );
+    
+    height:580px;
+    width:380px;
+   gap:8px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(241, 67, 189);
+    
+}
+body{
+    height:800px;
+    display:flex;
+    
+     flex-direction: column;
+    align-items: center;
+    background:linear-gradient(rgb(247, 246, 244),rgb(187, 176, 235) );
+    justify-content: center;
+     
+}
+h1{
+color: rgb(12, 12, 12);
+padding:5px;
+margin-bottom: 2px;
+margin-top: 5px;
+}
+#A1{
+    
+    border:1px solid rgb(17, 17, 17);
+    background-color: rgb(244, 248, 248);
+    gap:20px;
+    height:50px;
+    width:360px;
+    padding:5px;
+    margin-bottom: 20px;
+    border-radius: 5%;
+    
+}
+button{
+    
+    border:2px solid blueviolet;
+    gap:15px;
+    height:80px;
+    width:80px;
+    color:black;
+        border-radius: 10%;
+
+}
+.btn0{
+   
+     border:2px solid blueviolet;
+    gap:15px;
+    height:70px;
+    width:150px;
+    color:black;
+       border-radius: 10%;
+
+}
+#A2{
+
+ border:2px solid rgb(250, 247, 52);
+      border-radius: 10%;
+
+    gap:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80px;
+    width:380px;
+    padding:5px;
+}
+
+#A3{
+     border:2px solid rgb(250, 247, 52);
+     
+       border-radius: 10%;
+
+    gap:20px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80px;
+    width:380px;
+    padding:5px;
+}
+
+
+#A4{
+    
+     border:2px solid rgb(250, 247, 52);
+        border-radius: 10%;
+
+    gap:20px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+     height:80px;
+    width:380px;
+    padding:5px;
+   
+}
+
+
+#A5{
+ 
+ border:2px solid rgb(250, 247, 52);
+       border-radius: 10%;
+
+    gap:20px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+height:80px;
+    width:380px;
+    padding:5px;
+    cursor:pointer;
+}
+
+#A6{
+   border-radius: 10%;
+ 
+  border:2px solid rgb(250, 247, 52);
+    
+    gap:20px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80px;
+    width:380px;
+    padding:5px;
+     margin-bottom: 10px;
+}
+

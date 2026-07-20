@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <section> 
+        <h1> Calculator</h1>
+        <div >
+            <input id="A1" type="text" readonly  >
+
+        </div>
+        <div id="A2">
+            <button onclick="refresh()" class="btnrefresh"> AC</button>
+            <button onclick="Return()"  class="btnreturn"> back</button>
+            <button onclick="Remider('%') " class="btnmodulas"> %</button>
+            <button onclick="btndivide('/')"   class="btndivide" > /</button>
+        </div>
+        <div id="A3">
+            <button class="btn7" onclick="show(7)"> 7</button>
+            <button class="btn8" onclick="show(8)"> 8</button>
+            <button class="btn0" onclick="show(9)"> 9</button>
+            <button onclick="btnmulti('*')"  class="btnmulti"> X</button>
+        </div>
+        <div id="A4">
+            <button class="btn4" onclick="show(4)"> 4</button>
+            <button class="btn5" onclick="show(5)"> 5</button>
+            <button class="btn6" onclick="show(6)"> 6</button>
+            <button onclick="btnminus('-')"   class="btnsub" > - </button>
+        </div>
+        <div id="A5">
+            <button class="btn1" onclick="show(1)"> 1</button>
+            <button class="btn2" onclick="show(2)"> 2</button>
+            <button class="btn3" onclick="show(3)"> 3</button>
+            <button onclick="btnplus('+')"  class="btnplus" > +</button>
+        </div>
+        <div id="A6">
+            <button class="btn0" onclick="show(0)"> 0</button>
+            <button class="btndot" onclick="show('.')"> .</button>
+            <button onclick="result()" id="btnequal"> =</button>
+            
+        </div>
+
+    </section>
+    
+</body>
+     <script src="calculator.js"></script>
+</html>
