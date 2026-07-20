@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C#\\Login Sysstem (2)\\Login Sysstem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E63BC647-4323-4A97-BE61-EDB9E4D96A66}|Login Sysstem\\Login Sysstem.csproj|e:\\c#\\login sysstem (2)\\login sysstem\\login sysstem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E63BC647-4323-4A97-BE61-EDB9E4D96A66}|Login Sysstem\\Login Sysstem.csproj|solutionrelative:login sysstem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E63BC647-4323-4A97-BE61-EDB9E4D96A66}|Login Sysstem\\Login Sysstem.csproj|E:\\C#\\Login Sysstem (2)\\Login Sysstem\\login sysstem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E63BC647-4323-4A97-BE61-EDB9E4D96A66}|Login Sysstem\\Login Sysstem.csproj|solutionrelative:login sysstem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E63BC647-4323-4A97-BE61-EDB9E4D96A66}|Login Sysstem\\Login Sysstem.csproj|E:\\C#\\Login Sysstem (2)\\Login Sysstem\\login sysstem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E63BC647-4323-4A97-BE61-EDB9E4D96A66}|Login Sysstem\\Login Sysstem.csproj|solutionrelative:login sysstem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E63BC647-4323-4A97-BE61-EDB9E4D96A66}|Login Sysstem\\Login Sysstem.csproj|e:\\c#\\login sysstem (2)\\login sysstem\\login sysstem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E63BC647-4323-4A97-BE61-EDB9E4D96A66}|Login Sysstem\\Login Sysstem.csproj|solutionrelative:login sysstem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "E:\\C#\\Login Sysstem (2)\\Login Sysstem\\Login Sysstem\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Login Sysstem\\LoginForm.cs",
+              "ToolTip": "E:\\C#\\Login Sysstem (2)\\Login Sysstem\\Login Sysstem\\LoginForm.cs",
+              "RelativeToolTip": "Login Sysstem\\LoginForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T02:06:10.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Login Sysstem (2)\\Login Sysstem\\Login Sysstem\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Login Sysstem\\Dashboard.cs",
+              "ToolTip": "E:\\C#\\Login Sysstem (2)\\Login Sysstem\\Login Sysstem\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Login Sysstem\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T15:36:03.175Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Login Sysstem (2)\\Login Sysstem\\Login Sysstem\\Form1.cs",
+              "RelativeDocumentMoniker": "Login Sysstem\\Form1.cs",
+              "ToolTip": "E:\\C#\\Login Sysstem (2)\\Login Sysstem\\Login Sysstem\\Form1.cs [Design]",
+              "RelativeToolTip": "Login Sysstem\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T15:36:00.025Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "E:\\C#\\Login Sysstem (2)\\Login Sysstem\\Login Sysstem\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Login Sysstem\\LoginForm.cs",
+              "ToolTip": "E:\\C#\\Login Sysstem (2)\\Login Sysstem\\Login Sysstem\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Login Sysstem\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T15:35:51.294Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
