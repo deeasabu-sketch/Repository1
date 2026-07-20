@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="regstyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Registration Form</h1>
+        <form action="#" method="post">
+            <input type="hidden" name="studentId" value="1001">
+            <fieldset>
+                <legend> Personal information</legend>
+                <label> Full Name</label>
+                <input type="text" name="fullname" placeholder="Enter Full name" 
+                required minlength="5" maxlength="50" autocomplete="name">
+                <label> Email</label>
+                <input type="email" name="email" placeholder="example@gmail.com" required autocomplete="email">
+                <label>Password</label>
+                <input type="password" name="password" placeholder="Enter Password" required minlength="6" maxlength="20" autocomplete="new-password">
+                <label> Website</label>
+                <input type="url" name="website" placeholder="https://www.example.com" required autocomplete="url">
+                <label> Phone Number</label>
+                <input type="text" name="phone" placeholder="017xxxxxxxx" pattern="01[3-9]{1}[0-9]{8}" autocomplete="text">
+                <label> Age</label>
+                <input type="number" name="age" placeholder="Enter your age" min="18" max="45" step="2" required>
+                <label> Date Of Birth</label>
+                <input type="date" required>
+                <label> Prefered Time</label>
+                <input type="datetime-local" required>
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend> Gender</legend>
+                <label>
+                    <input type="radio" name="gender" value="male" required> Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="Female" required> Female
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="other" required> Others
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend> Department</legend>
+                <label> 
+                    Select Department
+                </label>
+                <select  required>
+                    <option value="">Choose One</option>
+                    <option value="CSE">CSE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="English">English</option>
+                    <optgroup label="Business">
+                        <option value="MBA">MBA</option>
+                        <option value="BBA">BBA</option>
+                </select>   
+            </fieldset>
+            <fieldset>
+                <Legend> Skill</Legend>
+                <label> 
+                    <input type="checkbox"> HTML
+                </label>
+                <label> 
+                    <input type="checkbox"> CSS
+                </label>
+                <label> 
+                    <input type="checkbox"> JavaScript
+                </label>
+                <label> 
+                    <input type="checkbox"> SQL
+                </label>
+
+            </fieldset>
+            <fieldset>
+                <legend> Favorite Browser</legend>
+                <input list="browser">
+                <datalist id="browser">
+                    <option value="Chrome">
+                    <option value="Firefox">
+                    <option value="Safari">
+                    <option value="Opera">
+                    <da value="Edge">
+                </datalist>
+            </fieldset>
+            <fieldset>
+                <legend> Upload Documents</legend>
+                <label> Profile Picture</label>
+                <input type="file" name="profilepic" accept="image/*" required>
+                <label>
+                    Certificates
+                </label>
+                <input type="file" name="certificates" accept=".pdf,.doc,.docx" multiple required>
+            </fieldset>
+            <fieldset>
+                <legend> Proggraming Skill</legend>
+                <input type="range" min="0" max="100" step="5">
+            </fieldset>
+            <fieldset>
+                <legend> Favorite Color</legend>
+                <input type="color" >
+            </fieldset>
+            <fieldset>
+                <legend>Address</legend>
+                 <textarea name="address" rows="5"  placeholder="Enter your address" ></textarea>
+
+            </fieldset>
+            <fieldset>
+                <label> Country</label>
+                <input type="text" value="Bangladesh" readonly>
+                <label> Admission status</label>
+                <input type="text" value="Open" disable>
+                <label> Short Code</label>
+                <input type="text" size="10">
+                <div style="text-align:center;padding-top: 10px;box-sizing: border-box;">
+                    <button class="button" >Preview</button>
+                    <button class="button">Submit</button>
+                    <button class="button">Reset</button>
+                </div>
+            </fieldset>
+               
+
+        </form>
+    </div>
+</body>
+</html>
